@@ -1,6 +1,6 @@
 # snake-game
 ## Goal 
-To 
+To eat food, grow the snake, and avoid collisions.
 ## Controls
 1. To start press any Arrow Key
 2. To Move Press Left,Right,Down,Up Arrow Key
