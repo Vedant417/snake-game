@@ -1,1 +1,7 @@
 # snake-game
+## Goal 
+To 
+## Controls
+1. To start press any Arrow Key
+2. To Move Press Left,Right,Down,Up Arrow Key
+3. To Restart press Ok Button
