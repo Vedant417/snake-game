@@ -1,6 +1,6 @@
 # snake-game
 ## Link 
-https://friday508.github.io/snake-game/
+https://vedant417.github.io/snake-game/
 ## Goal 
 To eat food, grow the snake, and avoid collisions.
 ## Controls
