@@ -17,18 +17,23 @@ body {
 
 .name {
     position: absolute;
-    top: 35px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
     font-size: 4rem; 
-    font-weight: 700;
-    color: #000000;
-    text-shadow: 0 0 8px #7B2FF7;
+     font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
     pointer-events: none;
     user-select: none;
     z-index: 100;
+
 }
 
 .start-message {
@@ -37,7 +42,9 @@ body {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     color: #000000;
     text-shadow: 0 0 5px #7B2FF7;
     pointer-events: none;  
@@ -63,6 +70,7 @@ body {
 .game-details {
     color: #FFF; 
     text-shadow: 0 0 5px #7B2FF7;
+    background: rgb(168, 234, 132);
     font-size: 1.2rem;
     font-weight: 600;
     padding: 20px 27px;
@@ -85,6 +93,8 @@ body {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
 }
 
@@ -176,3 +186,13 @@ body {
         font-size: 1rem;
     }
 }
+    .high-score{
+          font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .score{
+         font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
